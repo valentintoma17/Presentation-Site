@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Corinthia', cursive;
+  font-size: 80px;
+  /* line-height: 2; */
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
+  font-size: 2.5rem;
+  color: #9C3D54;
+  font-weight: normal;
+}
+
+h3 {
+  color: #310B0B;
+}
+
+a {
+  color: #310B0B;
+}
+
+/************Container*************/
+.top-container {
+  background-color: #FABCF3;
+  padding-top: 60px;
+  position: relative;
+}
+
+.middle-container {}
+
+.profile {
+  /* display: inline; */
+}
+
+.bottom-container {}
+
+/************Images*************/
+.profile-picture {
+  max-height: 200px;
+  /* display: inline; */
+}
+
+.heart {
+  position: absolute;
+  bottom: 250px;
+  left: 280px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.moon {
+  position: absolute;
+  right: 250px;
+  top: 80px;
+  border-radius: 50%;
+}
+
+.mountain {
+  width: 40%;
+  height: auto;
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.teacher-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/*****************PROFILE SECTION**************/
+.hello{
+  display: inline;
+}
+
+/*****************SKILLS SECTION**************/
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+/*****************OTHERS**************/
+.first-page-h2 {
+  margin-top: 5px;
+  color: black;
+}
+
+.first-page-h1 {
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+.dev {
+  text-decoration: underline;
+}
