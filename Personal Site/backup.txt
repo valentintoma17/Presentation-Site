@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ⓥalentin Toma</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td>  <img src="images/Profile picture Valentin Toma.png" alt="Valentin Toma's profile picture " height="200px"></td>
+      <td>
+        <h1>Valentin Toma</h1>
+        <p>
+          <em>Co-founder and CEO of <strong><a href="https://makidsfurniture.com/">@makidsfurniture</a></strong></em>
+        </p>
+        <p>Philosopher at heart, entrepreneur & an overly excited novice programmer are defining my infinite return to the same. </p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>Graduated from 'Moise Nicoara' National highschool, Arad, Romania - 2009</li>
+    <li>BA Honours Philosophy 2.1 - Manchester Metropolitan University, Manchester, UK - 2009-2013</li>
+    <li>CELTA – PASS B, from Manchester Central School of English, Manchester, UK - 2015</li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10px">
+    <thead>
+      <tr>
+        <td scope="col">Date</td>
+        <td scope="col">Work</td>
+        <td scope="col">Description</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2019 - present</td>
+        <td>Co-founder <strong><a href="https://makidsfurniture.com/">@makidsfurniture</a></strong></td>
+        <td><ul>
+          <li>Create website on Squarespace & WordPress</li>
+          <li>Quality control</li>
+          <li>Management & Logistics</li>
+        </ul></td>
+      </tr>
+      <tr>
+        <td>2015 - present</td>
+        <td>English teacher</td>
+        <td>Taught teenagers and adults in England, Italy, Vietnam and China</td>
+      </tr>
+      <tr>
+        <td>2013 - 2015</td>
+        <td>Co-op bank UK</td>
+        <td>back office assistant</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+  <hr>
+  <h3>Programs learnt on Udemy - <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Web Dev Bootcamp</a></h3>
+  <table cellspacing="10px">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>HTML(5) </td>
+            <td>⭐⭐⭐⭐⭐</td>
+
+          </tr>
+          <tr>
+            <td>CSS(3)</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>GitHub</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Bootstrap(5)</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>DOM</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+
+
+    </tr>
+
+
+
+  </table>
+
+
+<hr>
+
+
+  <h3>Hobbies</h3>
+  <ol>
+    <li>Philosophy</li>
+    <li>Books (especially sci-fi)</li>
+    <li>Sport (running, swimming, <a href="https://www.facebook.com/photo?fbid=2803234476672833&set=a.1511056459223981">football</a>)</li>
+    <li>Rock’n’Roll</li>
+    <li><a href="https://www.facebook.com/photo.php?fbid=2765031606887344&set=t.100000291960314&type=3">Hiking</a></li>
+  </ol>
+</body>
+<h3><a href="Contact Details.html">Contact details</a></h3>
+
+</html>

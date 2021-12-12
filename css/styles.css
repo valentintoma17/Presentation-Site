@@ -24,6 +24,7 @@ h3 {
 
 a {
   color: #310B0B;
+  font-weight: bold;
 }
 
 /************Container*************/
@@ -33,13 +34,29 @@ a {
   position: relative;
 }
 
-.middle-container {}
-
-.profile {
-
+.middle-container {
+  padding-bottom: 2rem;
 }
 
-.bottom-container {}
+.bottom-container {
+  background-color: #FABCF3;
+  padding-top: 2rem;
+}
+
+/************First Part*************/
+.first-page-h2 {
+  margin-top: 5px;
+  color: black;
+}
+
+.first-page-h1 {
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+.dev {
+  text-decoration: underline;
+}
 
 /************Images*************/
 .profile-picture {
@@ -108,23 +125,45 @@ a {
   max-width: 40rem;
   margin: 5rem auto;
   text-align: left;
-  
+
 }
-/*****************OTHERS**************/
-.first-page-h2 {
-  margin-top: 5px;
-  color: black;
+/*****************CONTACT ME**************/
+.para-contact-me{
+  padding: 2rem;
+}
+.btn {
+  background: #FABCF3;
+  background-image: -webkit-linear-gradient(top, #FABCF3, #c73bb7);
+  background-image: -moz-linear-gradient(top, #FABCF3, #c73bb7);
+  background-image: -ms-linear-gradient(top, #FABCF3, #c73bb7);
+  background-image: -o-linear-gradient(top, #FABCF3, #c73bb7);
+  background-image: linear-gradient(to bottom, #FABCF3, #c73bb7);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #310B0B;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.first-page-h1 {
-  font-weight: 900;
-  margin-bottom: 2px;
+.btn:hover {
+  background: #d19dcc;
+  background-image: -webkit-linear-gradient(top, #d19dcc, #FABCF3);
+  background-image: -moz-linear-gradient(top, #d19dcc, #FABCF3);
+  background-image: -ms-linear-gradient(top, #d19dcc, #FABCF3);
+  background-image: -o-linear-gradient(top, #d19dcc, #FABCF3);
+  background-image: linear-gradient(to bottom, #d19dcc, #FABCF3);
+  text-decoration: none;
 }
 
-.dev {
-  text-decoration: underline;
+/*****************CONTACT ME**************/
+.footer-link{
+  padding: 2rem;
 }
 
+/*****************Screen Media**************/
 @media screen and (max-width: 1300px) {
   .moon{
     right: 2rem;
