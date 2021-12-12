@@ -14,7 +14,7 @@ h1 {
 h2 {
   font-family: 'Play', sans-serif;
   font-size: 2.5rem;
-  color: #9C3D54;
+  color: #310B0B;
   font-weight: normal;
 }
 
@@ -44,7 +44,8 @@ a {
 /************Images*************/
 .profile-picture {
   max-height: 200px;
-  /* display: inline; */
+  display: inline !important;
+  margin-top: 2rem;
 }
 
 .heart {
@@ -81,15 +82,34 @@ a {
 }
 /*****************PROFILE SECTION**************/
 .hello{
-  display: inline;
+  display: inline !important;
+  position: absolute;
+  left: 25rem;
+  margin-top: 5rem;
+}
+
+.para-profile {
+  max-width: 40rem;
+  margin: 1rem auto;
 }
 
 /*****************SKILLS SECTION**************/
+.skills {
+  background-color: #FABCF3;
+  padding-bottom: 2rem;
+
+}
+
+.h2-skills {
+  margin-bottom: 0;
+  padding-top: 1.8rem;
+}
+
 .skill-row{
   width: 50%;
-  margin: 100px auto;
+  margin: 5rem auto;
   text-align: left;
-  line-height: 2;
+  /* line-height: 2; */
 }
 /*****************OTHERS**************/
 .first-page-h2 {
@@ -104,4 +124,14 @@ a {
 
 .dev {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 1300px) {
+  .moon{
+    right: 2rem;
+  }
+  .heart{
+    left: 2rem;
+  }
+
 }
