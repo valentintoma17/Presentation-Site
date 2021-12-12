@@ -36,7 +36,7 @@ a {
 .middle-container {}
 
 .profile {
-  /* display: inline; */
+
 }
 
 .bottom-container {}
@@ -44,7 +44,6 @@ a {
 /************Images*************/
 .profile-picture {
   max-height: 200px;
-  display: inline !important;
   margin-top: 2rem;
 }
 
@@ -106,10 +105,10 @@ a {
 }
 
 .skill-row{
-  width: 50%;
+  max-width: 40rem;
   margin: 5rem auto;
   text-align: left;
-  /* line-height: 2; */
+  
 }
 /*****************OTHERS**************/
 .first-page-h2 {
@@ -133,5 +132,7 @@ a {
   .heart{
     left: 2rem;
   }
-
+  .hello{
+    left: 15rem;
+  }
 }
